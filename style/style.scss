@@ -1,0 +1,57 @@
+@import "reset";
+@import "colors";
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+html::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: url('../IMG_3198.jpg') bottom/cover;
+}
+
+html {
+  background-color: $bg;
+}
+
+body {
+  color: $txt;
+  font-family: 'Bungee Shade', sans-serif;
+  text: {
+    align: center;
+  }
+}
+
+a {
+  color: $lnk;
+}
+
+.masthead {
+  font: {
+    size: 100vw;
+  }
+  line: {
+    height: 100%;
+  }
+  span {
+    display: block;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    text: {
+      align: left;
+    }
+  }
+  .masthead {
+    font: {
+      size: 42vw;
+    }
+  }
+}
