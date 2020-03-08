@@ -9,7 +9,7 @@ ul {
   padding: 0; }
 
 html {
-  background-color: #000000; }
+  background: url("../bg/IMG_3206_500.jpg") center/500px #000000; }
 
 body {
   color: #ff0000; }
@@ -19,11 +19,6 @@ a {
 
 img {
   width: 100%; }
-
-#mag {
-  -webkit-filter: blur(10vw);
-          filter: blur(10vw);
-  margin: 2rem 0; }
 
 .svgtext {
   -webkit-filter: drop-shadow(5vw 0 0 #00ffff) drop-shadow(-5vw 0 0 #ff0000);

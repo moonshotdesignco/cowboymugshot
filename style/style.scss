@@ -2,7 +2,7 @@
 @import "colors";
 
 html {
-  background-color: $bg;
+  background: url("../bg/IMG_3206_500.jpg") center/500px $bg;
 }
 
 body {
@@ -15,11 +15,6 @@ a {
 
 img {
   width: 100%;
-}
-
-#mag {
-  filter: blur(10vw);
-  margin: 2rem 0;
 }
 
 .svgtext {
