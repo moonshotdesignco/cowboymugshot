@@ -6,60 +6,41 @@ html {
   background-color: $bg;
 }
 
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background: url('../IMG_3188.jpg') bottom/cover;
-}
-
 body {
   color: $txt;
-  font-family: 'Bungee Shade', sans-serif;
+  font: {
+    family: 'Bungee Shade', sans-serif;
+    size: 300%;
+  }
   text: {
     align: center;
+    transform: uppercase;
   }
+  word: {
+    break: break-all;
+  }
+  line: {
+    height: 100%;
+  }
+  margin: 1rem;
 }
 
 a {
   color: $lnk;
 }
 
-.masthead {
-  font: {
-    size: 100vw;
-  }
-  line: {
-    height: 100%;
-  }
-  span {
-    display: block;
-  }
-}
-
 img {
   width: 100%;
-  filter: invert(1) drop-shadow(0px 2rem 0px $txt);
 }
 
-@media (min-width: 600px) {
+.icon {
+  width: 64px;
+}
+
+
+
+@media (min-width: 900px) {
   body {
-    text: {
-      align: right;
-    }
-  }
-  .masthead {
-    font: {
-      size: 42vw;
-    }
-  }
-  img {
-    width: 40%;
+    margin: 0;
   }
 }
