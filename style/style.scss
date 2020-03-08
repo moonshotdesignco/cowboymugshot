@@ -1,6 +1,5 @@
 @import "reset";
 @import "colors";
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 
 html {
   background-color: $bg;
@@ -8,21 +7,6 @@ html {
 
 body {
   color: $txt;
-  font: {
-    family: 'Bungee Shade', sans-serif;
-    size: 300%;
-  }
-  text: {
-    align: center;
-    transform: uppercase;
-  }
-  word: {
-    break: break-all;
-  }
-  line: {
-    height: 100%;
-  }
-  margin: 1rem;
 }
 
 a {
@@ -33,14 +17,11 @@ img {
   width: 100%;
 }
 
-.icon {
-  width: 64px;
+#mag {
+  filter: blur(10vw);
+  margin: 2rem 0;
 }
 
-
-
-@media (min-width: 900px) {
-  body {
-    margin: 0;
-  }
+.svgtext {
+  filter: drop-shadow(5vw 0 0 $lnk) drop-shadow(-5vw 0 0 $txt);
 }
