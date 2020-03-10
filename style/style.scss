@@ -17,10 +17,12 @@ a {
   display: block;
 }
 
-a:hover {
-  .svgtext {
-    filter: none;
-  }
+.ig:hover, .ig:active, .ig:focus {
+  background: $lnk;
+}
+
+.mag:hover, .mag:active, .mag:focus {
+  background: $txt;
 }
 
 img {

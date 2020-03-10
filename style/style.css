@@ -20,9 +20,11 @@ body {
 a {
   display: block; }
 
-a:hover .svgtext {
-  -webkit-filter: none;
-          filter: none; }
+.ig:hover, .ig:active, .ig:focus {
+  background: #00ffff; }
+
+.mag:hover, .mag:active, .mag:focus {
+  background: #ff0000; }
 
 img {
   width: 100%; }
