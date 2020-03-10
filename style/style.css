@@ -11,11 +11,18 @@ ul {
 html {
   background: #000000; }
 
+#cmhtml {
+  background: url("../bg/IMG_3206_2000.jpg") top left/100% repeat #000000; }
+
 body {
   color: #ff0000; }
 
 a {
-  color: #00ffff; }
+  display: block; }
+
+a:hover .svgtext {
+  -webkit-filter: none;
+          filter: none; }
 
 img {
   width: 100%; }

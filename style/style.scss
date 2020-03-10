@@ -5,12 +5,22 @@ html {
   background: $bg;
 }
 
+#cmhtml {
+  background: url("../bg/IMG_3206_2000.jpg") top left/100% repeat $bg;
+}
+
 body {
   color: $txt;
 }
 
 a {
-  color: $lnk;
+  display: block;
+}
+
+a:hover {
+  .svgtext {
+    filter: none;
+  }
 }
 
 img {
