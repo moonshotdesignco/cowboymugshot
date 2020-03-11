@@ -12,7 +12,10 @@ html {
   background: #000000; }
 
 #cmhtml {
-  background: url("../bg/IMG_3206_2000.jpg") center/100% fixed repeat #000000; }
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
 
 body {
   color: #ff0000; }
@@ -20,18 +23,20 @@ body {
 a {
   display: block; }
 
-.ig:hover, .ig:active, .ig:focus {
-  background: #00ffff; }
-
-.mag:hover, .mag:active, .mag:focus {
-  background: #ff0000; }
+.ig:hover, .ig:active, .ig:focus, .mag:hover, .mag:active, .mag:focus {
+  background: white; }
 
 .sp:hover .svgtext, .sp:active .svgtext, .sp:focus .svgtext {
   -webkit-filter: none;
           filter: none; }
 
 img {
-  width: 100%; }
+  width: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
 
 .svgtext {
   -webkit-filter: drop-shadow(5vw 0 0 #00ffff) drop-shadow(-5vw 0 0 #ff0000);

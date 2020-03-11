@@ -6,7 +6,10 @@ html {
 }
 
 #cmhtml {
-  background: url("../bg/IMG_3206_2000.jpg") center/100% fixed repeat $bg;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 body {
@@ -17,12 +20,8 @@ a {
   display: block;
 }
 
-.ig:hover, .ig:active, .ig:focus {
-  background: $lnk;
-}
-
-.mag:hover, .mag:active, .mag:focus {
-  background: $txt;
+.ig:hover, .ig:active, .ig:focus, .mag:hover, .mag:active, .mag:focus {
+  background: white;
 }
 
 .sp:hover .svgtext, .sp:active .svgtext, .sp:focus .svgtext {
@@ -31,6 +30,8 @@ a {
 
 img {
   width: 100%;
+  -webkit-touch-callout: none;
+  user-select: none;
 }
 
 .svgtext {
