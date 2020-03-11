@@ -12,7 +12,7 @@ html {
   background: #000000; }
 
 #cmhtml {
-  background: url("../bg/IMG_3206_2000.jpg") top left/100% repeat #000000; }
+  background: url("../bg/IMG_3206_2000.jpg") center/100% fixed repeat #000000; }
 
 body {
   color: #ff0000; }
