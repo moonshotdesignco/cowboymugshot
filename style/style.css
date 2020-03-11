@@ -26,6 +26,10 @@ a {
 .mag:hover, .mag:active, .mag:focus {
   background: #ff0000; }
 
+.sp:hover .svgtext, .sp:active .svgtext, .sp:focus .svgtext {
+  -webkit-filter: none;
+          filter: none; }
+
 img {
   width: 100%; }
 

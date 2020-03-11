@@ -25,6 +25,10 @@ a {
   background: $txt;
 }
 
+.sp:hover .svgtext, .sp:active .svgtext, .sp:focus .svgtext {
+  filter: none;
+}
+
 img {
   width: 100%;
 }
