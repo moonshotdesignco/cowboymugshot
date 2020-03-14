@@ -3,6 +3,10 @@
 
 html {
   background: $bg;
+  color: white;
+  font: {
+    family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, 'Open Sans', sans-serif;
+  }
 }
 
 #cmhtml::before {
@@ -69,6 +73,9 @@ a {
 
 a:hover, a:active, a:focus {
   background: white;
+  .svgtext {
+    filter: none;
+  }
 }
 
 img {
@@ -79,4 +86,10 @@ img {
 
 .svgtext {
   filter: drop-shadow(5vw 0 0 $lnk) drop-shadow(-5vw 0 0 $txt);
+}
+
+#copy {
+  font: {
+    size: 9pt;
+  }
 }
