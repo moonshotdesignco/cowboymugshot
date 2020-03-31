@@ -137,6 +137,11 @@ img {
           filter: drop-shadow(5vw 0 0 #00ffff) drop-shadow(-5vw 0 0 #ff0000);
 }
 
+.svgtext-alt {
+  -webkit-filter: drop-shadow(5vw 0 0 darkred) drop-shadow(-5vw 0 0 darkred);
+          filter: drop-shadow(5vw 0 0 darkred) drop-shadow(-5vw 0 0 darkred);
+}
+
 #copy {
   font-size: 9pt;
 }

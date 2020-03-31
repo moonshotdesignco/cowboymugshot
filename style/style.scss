@@ -88,6 +88,10 @@ img {
   filter: drop-shadow(5vw 0 0 $lnk) drop-shadow(-5vw 0 0 $txt);
 }
 
+.svgtext-alt {
+  filter: drop-shadow(5vw 0 0 darkred) drop-shadow(-5vw 0 0 darkred);
+}
+
 #copy {
   font: {
     size: 9pt;
