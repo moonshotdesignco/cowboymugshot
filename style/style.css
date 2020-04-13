@@ -26,88 +26,9 @@ html {
   width: 100%;
   height: 100%;
   z-index: -1;
+  background-image: url("../bg/11.jpg");
   background-position: center;
   background-size: cover;
-}
-
-#cmhtml.bg1::before {
-  background-image: url("../bg/1.JPG");
-}
-
-#cmhtml.bg2::before {
-  background-image: url("../bg/2.JPG");
-}
-
-#cmhtml.bg3::before {
-  background-image: url("../bg/3.JPG");
-}
-
-#cmhtml.bg4::before {
-  background-image: url("../bg/4.JPG");
-}
-
-#cmhtml.bg5::before {
-  background-image: url("../bg/5.JPG");
-}
-
-#cmhtml.bg6::before {
-  background-image: url("../bg/6.JPG");
-}
-
-#cmhtml.bg7::before {
-  background-image: url("../bg/7.JPG");
-}
-
-#cmhtml.bg8::before {
-  background-image: url("../bg/8.JPG");
-}
-
-#cmhtml.bg9::before {
-  background-image: url("../bg/9.JPG");
-}
-
-#cmhtml.bg10::before {
-  background-image: url("../bg/10.JPG");
-}
-
-#cmhtml.bg11::before {
-  background-image: url("../bg/11.JPG");
-}
-
-#cmhtml.bg12::before {
-  background-image: url("../bg/12.JPG");
-}
-
-#cmhtml.bg13::before {
-  background-image: url("../bg/13.JPG");
-}
-
-#cmhtml.bg14::before {
-  background-image: url("../bg/14.JPG");
-}
-
-#cmhtml.bg15::before {
-  background-image: url("../bg/15.JPG");
-}
-
-#cmhtml.bg16::before {
-  background-image: url("../bg/16.JPG");
-}
-
-#cmhtml.bg17::before {
-  background-image: url("../bg/17.JPG");
-}
-
-#cmhtml.bg18::before {
-  background-image: url("../bg/18.JPG");
-}
-
-#cmhtml.bg19::before {
-  background-image: url("../bg/19.JPG");
-}
-
-#cmhtml.bg20::before {
-  background-image: url("../bg/20.JPG");
 }
 
 a {
@@ -118,7 +39,7 @@ a:hover, a:active, a:focus {
   background: white;
 }
 
-a:hover .svgtext, a:active .svgtext, a:focus .svgtext {
+a:hover .svgtext, a:hover .svgtext-alt, a:active .svgtext, a:active .svgtext-alt, a:focus .svgtext, a:focus .svgtext-alt {
   -webkit-filter: none;
           filter: none;
 }

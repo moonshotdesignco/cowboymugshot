@@ -19,53 +19,54 @@ html {
   width: 100%;
   height: 100%;
   z-index: -1;
+  background-image: url("../bg/11.jpg");
   background-position: center;
   background-size: cover;
 }
 
-#cmhtml {
-  &.bg1::before {
-    background-image: url("../bg/1.JPG");
-  } &.bg2::before {
-    background-image: url("../bg/2.JPG");
-  } &.bg3::before {
-    background-image: url("../bg/3.JPG");
-  } &.bg4::before {
-    background-image: url("../bg/4.JPG");
-  } &.bg5::before {
-    background-image: url("../bg/5.JPG");
-  } &.bg6::before {
-    background-image: url("../bg/6.JPG");
-  } &.bg7::before {
-    background-image: url("../bg/7.JPG");
-  } &.bg8::before {
-    background-image: url("../bg/8.JPG");
-  } &.bg9::before {
-    background-image: url("../bg/9.JPG");
-  } &.bg10::before {
-    background-image: url("../bg/10.JPG");
-  } &.bg11::before {
-    background-image: url("../bg/11.JPG");
-  } &.bg12::before {
-    background-image: url("../bg/12.JPG");
-  } &.bg13::before {
-    background-image: url("../bg/13.JPG");
-  } &.bg14::before {
-    background-image: url("../bg/14.JPG");
-  } &.bg15::before {
-    background-image: url("../bg/15.JPG");
-  } &.bg16::before {
-    background-image: url("../bg/16.JPG");
-  } &.bg17::before {
-    background-image: url("../bg/17.JPG");
-  } &.bg18::before {
-    background-image: url("../bg/18.JPG");
-  } &.bg19::before {
-    background-image: url("../bg/19.JPG");
-  } &.bg20::before {
-    background-image: url("../bg/20.JPG");
-  }
-}
+// #cmhtml {
+//   &.bg1::before {
+//     background-image: url("../bg/1.JPG");
+//   } &.bg2::before {
+//     background-image: url("../bg/2.JPG");
+//   } &.bg3::before {
+//     background-image: url("../bg/3.JPG");
+//   } &.bg4::before {
+//     background-image: url("../bg/4.JPG");
+//   } &.bg5::before {
+//     background-image: url("../bg/5.JPG");
+//   } &.bg6::before {
+//     background-image: url("../bg/6.JPG");
+//   } &.bg7::before {
+//     background-image: url("../bg/7.JPG");
+//   } &.bg8::before {
+//     background-image: url("../bg/8.JPG");
+//   } &.bg9::before {
+//     background-image: url("../bg/9.JPG");
+//   } &.bg10::before {
+//     background-image: url("../bg/10.JPG");
+//   } &.bg11::before {
+//     background-image: url("../bg/11.JPG");
+//   } &.bg12::before {
+//     background-image: url("../bg/12.JPG");
+//   } &.bg13::before {
+//     background-image: url("../bg/13.JPG");
+//   } &.bg14::before {
+//     background-image: url("../bg/14.JPG");
+//   } &.bg15::before {
+//     background-image: url("../bg/15.JPG");
+//   } &.bg16::before {
+//     background-image: url("../bg/16.JPG");
+//   } &.bg17::before {
+//     background-image: url("../bg/17.JPG");
+//   } &.bg18::before {
+//     background-image: url("../bg/18.JPG");
+//   } &.bg19::before {
+//     background-image: url("../bg/19.JPG");
+//   } &.bg20::before {
+//     background-image: url("../bg/20.JPG");
+//   }
+// }
 
 a {
   display: block;
@@ -73,7 +74,7 @@ a {
 
 a:hover, a:active, a:focus {
   background: white;
-  .svgtext {
+  .svgtext, .svgtext-alt {
     filter: none;
   }
 }
